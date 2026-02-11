@@ -27,6 +27,12 @@ Evaluation: structural similarity metrics.
 Early experiments suggest the model captures long-range relationships,
 though geometric constraints remain challenging.
 
+## Future Research
+
+- SE(3)-equivariant networks
+- Graph neural networks for structural modeling
+- Multi-task learning approaches
+
 
 
 
