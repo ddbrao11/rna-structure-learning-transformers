@@ -1,3 +1,7 @@
+## Research Notes
+
+This repository represents ongoing independent research exploration.
+
 ## Research Motivation
 
 RNA structure prediction remains a major challenge in computational biology,
@@ -7,9 +11,19 @@ sequence-to-structure representations using publicly available benchmark dataset
 
 ## Research Questions
 
-- Can transformer architectures capture long-range dependencies required
-  for structural prediction?
-- How does sequence-only modeling compare to structure-aware approaches?
+- Can transformer architectures capture structural dependencies?
+- How well can sequence-only models predict 3D structure?
+- What limitations arise without geometric inductive bias?
+
+## Approach
+Sequence tokenization, transformer-based modeling,
+and coordinate prediction workflows evaluated
+using publicly available benchmark datasets.
+
+## Limitations
+Transformers lack explicit geometric constraints.
+Future work may explore equivariant neural networks
+or hybrid modeling approaches.
 
 ## Methodology Overview
 RNA Sequence → Tokenizer → Transformer Encoder → Regression Head → 3D Coordinates
@@ -33,9 +47,7 @@ though geometric constraints remain challenging.
 - Graph neural networks for structural modeling
 - Multi-task learning approaches
 
-## Research Notes
 
-This repository represents ongoing independent research exploration.
 
 
 
