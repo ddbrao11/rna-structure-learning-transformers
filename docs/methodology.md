@@ -1,4 +1,4 @@
-## Research Motivation
+## Research Motivation (Expanded)
 
 RNA structure prediction remains one of the most challenging problems in computational biology due to the complex relationship between nucleotide sequence and three-dimensional structural conformation. Accurate prediction of RNA folding has significant implications for drug discovery, synthetic biology, and understanding molecular function.
 
@@ -6,7 +6,7 @@ Traditional approaches often rely on physics-based simulations or handcrafted he
 
 This project explores whether modern transformer-based architectures can contribute to sequence-to-structure modeling by learning implicit structural constraints from publicly available benchmark datasets. Rather than focusing solely on optimization for competition metrics, the goal is to investigate methodological strategies and research questions relevant to scalable AI-driven structural prediction.
 
-## Research Questions
+## Research Questions (Expanded)
 
 This research investigates several key questions:
 
@@ -20,7 +20,7 @@ How do data-driven approaches compare conceptually with traditional physics-base
 
 What limitations arise when applying general-purpose sequence models to highly structured biological problems?
 
-## Methodology Description
+## Methodology Description 
 
 The overall methodology follows a sequence-to-structure learning paradigm.
 
@@ -44,7 +44,7 @@ Evaluation Approach
 
 Model behavior is evaluated using structural similarity metrics and analysis of prediction stability across sequences.
 
-## Experimental Design
+## Experimental Design 
 
 The experimental setup is designed to explore methodological insights rather than leaderboard performance.
 
