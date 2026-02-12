@@ -1,6 +1,7 @@
 ## Research Notes
 
 This repository represents ongoing independent research exploration.
+
 Detailed methodology: [docs/methodology.md](docs/methodology.md)
 
 
