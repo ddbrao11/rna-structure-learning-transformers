@@ -36,6 +36,7 @@ Baseline: simple regression models.
 
 Evaluation: structural similarity metrics.
 
+### Experimental Workflow (Conceptual Overview)
 ```
 +-------------------------+
 | RNA Sequence Dataset    |
