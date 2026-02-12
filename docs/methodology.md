@@ -10,15 +10,12 @@ This project explores whether modern transformer-based architectures can contrib
 
 This research investigates several key questions:
 
-Can transformer architectures effectively capture long-range dependencies necessary for predicting RNA structural configurations?
+- Can transformer architectures effectively capture long-range dependencies necessary for predicting RNA structural configurations?
+- To what extent can sequence-only modeling approaches approximate structural relationships without explicit geometric priors?
+- What architectural or training modifications improve the representation of structural context in RNA sequences?
+- How do data-driven approaches compare conceptually with traditional physics-based or rule-based folding methods?
+- What limitations arise when applying general-purpose sequence models to highly structured biological problems?
 
-To what extent can sequence-only modeling approaches approximate structural relationships without explicit geometric priors?
-
-What architectural or training modifications improve the representation of structural context in RNA sequences?
-
-How do data-driven approaches compare conceptually with traditional physics-based or rule-based folding methods?
-
-What limitations arise when applying general-purpose sequence models to highly structured biological problems?
 
 ## Methodology Description 
 
