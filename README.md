@@ -1,3 +1,6 @@
+## RNA 3D Folding
+RNA structure prediction, one of biology's remaining grand challenges
+
 ## Research Notes
 
 This repository represents ongoing independent research exploration.
@@ -6,6 +9,8 @@ Detailed methodology: [docs/methodology.md](docs/methodology.md)
 
 
 Medium article Link - https://medium.com/@ddbrao11/learning-rna-structure-from-sequence-with-transformer-based-models-a-research-exploration-5769e4f826ab?postPublishedType=repub
+
+This repository does not redistribute datasets; it provides reproducible research scaffolding and derived visualizations only
 
 
 ## Research Motivation
