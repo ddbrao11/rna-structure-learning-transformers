@@ -12,6 +12,8 @@ Medium article Link - https://medium.com/@ddbrao11/learning-rna-structure-from-s
 
 This repository does not redistribute datasets; it provides reproducible research scaffolding and derived visualizations only
 
+Paper draft: paper/outline.md
+
 
 ## Research Motivation
 
