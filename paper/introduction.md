@@ -3,6 +3,10 @@ RNA structure often determines biological function, making structure prediction 
 
 Transformer architectures are effective at capturing long-range context in sequence data. This raises a practical research question: to what extent can sequence-only transformers learn structure-relevant dependencies, and what limitations emerge when geometric constraints are not explicitly encoded? In this work, I explore a transformer-based baseline and a simple experimental workflow focused on reproducibility and interpretability rather than maximal performance.
 
+paper/pipeline.md
+[paper/pipeline.md](paper/pipeline.md)
+Figure 1 summarizes the baseline sequence-to-structure workflow used throughout this exploration.
+
 The primary case study focuses on RNA sequence-to-structure learning using publicly available benchmark tasks. I report a clear methodology, a minimal set of baselines, and an error-analysis mindset that highlights recurring failure modes. To strengthen the cross-disciplinary framing, I include a qualitative CryoET case study (flagellar motor localization) that demonstrates similar challenges in structural reasoning under noise and limited labels. Together, these case studies motivate future directions such as geometry-aware neural architectures and hybrid modeling approaches.
 
 ### Contributions (high level)
