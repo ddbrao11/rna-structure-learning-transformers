@@ -17,6 +17,7 @@ Cross-Domain Structural Learning: RNA Sequence-to-Structure Modeling with a Cryo
 - Inputs and representations
 - Modeling approach (transformer baseline + structured evaluation)
 - Evaluation philosophy: benchmarks + error analysis
+- See paper/methods.md for the baseline framework and evaluation philosophy
 
 ## 4. Case Study A (Primary): RNA
 - Task framing + dataset access language (public benchmark tasks)
