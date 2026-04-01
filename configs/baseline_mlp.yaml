@@ -1,0 +1,15 @@
+seed: 42
+seq_len: 128
+n_samples: 512
+
+model:
+  type: mlp
+  hidden_dim: 128
+  num_layers: 2
+
+train:
+  epochs: 5
+  lr: 0.001
+
+output:
+  out_dir: runs/mlp_baseline

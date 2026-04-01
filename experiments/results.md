@@ -9,3 +9,9 @@ The goal is transparency and iteration, not leaderboard optimization.
 - Output: writes `metrics.json` to a local `runs/` directory (not committed)
 - Notes: This baseline exists to validate the end-to-end workflow and logging.
 - Metric (MSE): 1.0489458025496363
+
+## Baseline 1 — MLP scaffold (workflow validation)
+- Date: 2026-03-31
+- Script: `src/train_mlp_baseline.py`
+- Notes: Runnable baseline scaffold to validate config → run → metrics logging pattern.
+- Metric (MSE): 1.036530804811763
