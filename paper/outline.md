@@ -23,6 +23,8 @@ Cross-Domain Structural Learning: RNA Sequence-to-Structure Modeling with a Cryo
 - Task framing + dataset access language (public benchmark tasks)
 - Baselines + model variants
 - Metrics + error analysis plan
+- Experimental setup notes: paper/experimental_setup.md
+- Results summary notes: paper/results_summary.md
 
 ## 5. Case Study B (Qualitative): CryoET / Flagellar motors
 - Dataset provenance (CryoET Data Portal) + citation note
