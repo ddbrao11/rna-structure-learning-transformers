@@ -6,6 +6,7 @@ RNA structure prediction, one of biology's remaining grand challenges
 This repository represents ongoing independent research exploration.
 
 Detailed methodology: [docs/methodology.md](docs/methodology.md)
+Paper draft: paper/README.md
 
 
 Medium article Link - https://medium.com/@ddbrao11/learning-rna-structure-from-sequence-with-transformer-based-models-a-research-exploration-5769e4f826ab?postPublishedType=repub
