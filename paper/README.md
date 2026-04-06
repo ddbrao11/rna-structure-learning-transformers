@@ -10,6 +10,7 @@ This folder contains the working draft for **Preprint #1 (AI + Bio)**.
 - `methods.md` — baseline methodology framework
 - `experimental_setup.md` — baseline setup + reproducibility conventions
 - `results_summary.md` — early results framing (workflow validation)
+- `manuscript.md` — single-file stitched draft (easy review)
 
 ## Status (as of 2026-04-02)
 This is an evolving draft. The immediate goal is to convert the working notes into a single compiled manuscript (LaTeX) with a small set of figures and a minimal results table, while maintaining reproducibility and conservative claims.
