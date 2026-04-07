@@ -15,6 +15,8 @@ This repository does not redistribute datasets; it provides reproducible researc
 
 Paper draft: paper/outline.md
 
+Results table: experiments/results_table.md (generated from local runs; `runs/` is not committed)
+
 
 ## Research Motivation
 
