@@ -58,6 +58,15 @@ Each run writes `metrics.json` locally under `runs/<name>/`. The repository trac
 ## 5. Results (Early Baseline Summary)
 At this stage, results are used to validate workflow and reporting rather than to claim strong predictive performance. A running record is maintained in `experiments/results.md`.
 
+### 5.1 Error Analysis (Early Notes)
+At this stage, the goal is to characterize expected failure modes rather than optimize metrics. The following patterns are tracked as the project evolves:
+
+- **Long-range dependency stress:** sequences where distant interactions are likely important may expose limitations of simple baselines.
+- **Ambiguity:** multiple plausible structural interpretations can reduce the usefulness of single-point predictions.
+- **Generalization risk:** behavior may change when sequence lengths or motif distributions shift from benchmark assumptions.
+
+These notes are maintained as a living log in `experiments/error_analysis.md` and will be updated as more meaningful baselines are added.
+
 ## 6. Case Study B (Qualitative): CryoET / Flagellar motor localization
 A qualitative CryoET case study is included to highlight cross-domain challenges in structural localization: noise, artifacts, small targets relative to volume size, and limited labels. This motivates geometry-aware and robustness-focused modeling directions, and provides a second structural domain aligned with scientific discovery workflows.
 
