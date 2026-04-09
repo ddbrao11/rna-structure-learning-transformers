@@ -17,6 +17,17 @@ Paper draft: paper/outline.md
 
 Results table: experiments/results_table.md (generated from local runs; `runs/` is not committed)
 
+## Quick Reproduce (Baseline)
+1) Run the baseline:
+   - `python src/train_baseline.py`
+2) (Optional) Run the MLP scaffold:
+   - `python src/train_mlp_baseline.py`
+3) Generate the results table:
+   - `python scripts/make_results_table.py`
+
+Notes:
+- `runs/` is local and not committed.
+- Summary results are written to `experiments/results_table.md`.
 
 ## Research Motivation
 

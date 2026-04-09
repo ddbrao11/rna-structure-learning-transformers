@@ -17,5 +17,8 @@ This folder contains the working draft for **Preprint #1 (AI + Bio)**.
 ## Status (as of 2026-04-02)
 This is an evolving draft. The immediate goal is to convert the working notes into a single compiled manuscript (LaTeX) with a small set of figures and a minimal results table, while maintaining reproducibility and conservative claims.
 
+## Status (as of 2026-04-09)
+This draft consolidates the baseline methodology, experiment logging conventions, and early workflow validation results. Next steps are converting related work notes into full citations and introducing a proper trainable model baseline while preserving the same reproducibility structure.
+
 ## Reproducibility note
 This repo does not redistribute restricted datasets. It focuses on methodology, experiment structure, logging conventions, and derived visuals/citations where applicable.
