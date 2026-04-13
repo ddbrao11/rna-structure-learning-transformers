@@ -16,18 +16,11 @@ The primary case study focuses on RNA sequence-to-structure learning using publi
 - A qualitative CryoET case study illustrating cross-domain challenges in structural localization and dataset realism.
 - Practical future directions emphasizing geometric inductive bias and hybrid approaches.
 
-## 2. Related Work (working notes)
-### RNA structure prediction
-- Classical and physics-inspired approaches model folding via thermodynamics/energy minimization.
-- Deep learning approaches learn structure-relevant representations from sequence and/or pairwise features, with growing interest in geometry-aware modeling.
-
-### Sequence modeling for structure
-- Transformer architectures provide a natural baseline for long-range dependency modeling in biological sequences.
-- A recurring limitation is the lack of explicit geometric inductive bias, motivating equivariant and structure-aware architectures.
-
-### CryoET structure detection (qualitative case study)
-- Cryo-electron tomography enables 3D reconstruction of cellular structures, but the data is noisy and targets can be small relative to the volume.
-- Automated detection/localization is often framed as 3D segmentation or object localization, where preprocessing and domain shift can strongly affect reliability.
+## 2. Related Work
+A cleaner related work draft is maintained in `paper/related_work_clean.md`. The references listed in `paper/refs.bib` cover 
+(1) RNA structure prediction reviews, 
+(2) transformer baselines, and 
+(3) CryoET data portal provenance for the qualitative case study.
 
 ## 3. Methodology (Baseline Framework)
 This work is structured as a reproducible baseline exploration rather than a performance-optimized submission. The goal is to understand what sequence-only models capture for RNA structure-related prediction, where they fail, and what directions appear promising for improvement.
